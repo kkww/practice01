@@ -6,7 +6,7 @@ public class Prob4 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner( System.in );
 		
-		System.out.print("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä. : ");
+		System.out.print("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš”. : ");
 		String input = scanner.nextLine();
 		
 		for(int i = 1; i <= input.length(); i++)

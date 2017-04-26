@@ -8,7 +8,7 @@ public class Prob3 {
 		Scanner scanner = new Scanner(System.in);
 		
 		while(true) {
-			System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");
 
 			int number = scanner.nextInt();
 			int sum = 0;
@@ -19,14 +19,14 @@ public class Prob3 {
 						sum += i;
 					}
 				}
-				System.out.println("°á°ú °ª : " + sum + "\n");
+				System.out.println("ï¿½ï¿½ï¿½ ï¿½ï¿½ : " + sum + "\n");
 			} else {
 				for(int i = 0; i <= number; i++) {
 					if(i % 2 != 0) {
 						sum += i;
 					}
 				}
-				System.out.println("°á°ú °ª : " + sum + "\n");
+				System.out.println("ï¿½ï¿½ï¿½ ï¿½ï¿½ : " + sum + "\n");
 			}
 		}
 		

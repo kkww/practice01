@@ -11,7 +11,7 @@ class Solv {
 		for(int i = 1; i < 100; i++) {
 			if(i < 10) {
 				if(i % 3 == 0) {
-					System.out.println(i + " Â¦");
+					System.out.println(i + "ì§");
 				}
 			} else {
 				if((i/10) != 0 && (i/10) %3 == 0) {
@@ -23,7 +23,7 @@ class Solv {
 				if(count != 0)
 					System.out.print(i + " ");
 				for(int j = 0; j < count; j++) {
-					System.out.print("Â¦");
+					System.out.print("ì§");
 				}
 				if(count != 0) {
 					System.out.println();
@@ -38,28 +38,28 @@ class Solv {
 		for(int i = 1; i < 100; i++) {
 			if(i < 10) {
 				if(i % 3 == 0)
-					System.out.println(i + " Â¦");
+					System.out.println(i + " ì§");
 			} else {
 				if((i/10 == 3) || (i/10 == 6) || (i/10 == 9)) {
 					if((i%10 == 3) || (i%10 == 6) || (i%10 == 9))
-						System.out.println(i + " Â¦Â¦");
+						System.out.println(i + " ì§ì§");
 					else
-						System.out.println(i + " Â¦");
+						System.out.println(i + " ì§");
 				} else {
 					if((i%10 == 3) || (i%10 == 6) || (i%10 == 9))
-						System.out.println(i + " Â¦");
+						System.out.println(i + " ì§");
 				}
 			}
 		}
 	}
 	
 	public void other2() { // scanner, new int[]
-		System.out.print("¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+		System.out.print("integer number input : ");
 
 		int number = scanner.nextInt();
 		int temp = 0;
-		int numcount = 0; //ÀÚ¸´¼ö
-		int count = 0; //3,6,9 °³¼ö
+		int numcount = 0; //ìžë¦¿ìˆ˜
+		int count = 0; //3,6,9 ìˆ˜
 		
 		for(int i = 1; i <= number; i++) {
 			temp = i;
@@ -96,7 +96,7 @@ class Solv {
 			if(count != 0)
 				System.out.print(temp + " ");
 			for(int j = 0; j < count; j++) {
-				System.out.print("Â¦");
+				System.out.print("ì§");
 			}
 			if(count != 0) {
 				System.out.println();
@@ -135,7 +135,7 @@ class Solv {
 				System.out.print(i+" ");
 
 				for(int j = 0; j < count; j++) {
-					System.out.print("Â¦");
+					System.out.print("ì§");
 				}
 				System.out.println();
 				
@@ -148,7 +148,7 @@ class Solv {
 	}
 		
 	
-	public void other4() { //[±èÇö¿ì] [¿ÀÈÄ 4:39] 
+	public void other4() { //[ê¹€í˜„ìš°] [ì˜¤í›„ 4:39] 
 		int num = 99;
 		
 		for (int i = 1; i <= num; i++) {
@@ -160,9 +160,9 @@ class Solv {
 					cnt++;
 
 					if (cnt == 1) {
-							System.out.print(i + " Â¦");
+							System.out.print(i + " ì§");
 					} else if (cnt == 2) {
-							System.out.print("Â¦");
+							System.out.print("ì§");
 					}
 					
 				}
@@ -189,7 +189,7 @@ public class Prob5 {
 		//s.other1();	
 		//s.other2();
 		//s.other3();
-		//s.other4(); //[±èÇö¿ì] [¿ÀÈÄ 4:39]
+		//s.other4(); //[ê¹€í˜„ìš°] [ì˜¤í›„ 4:39]
 		//s.other5();
 	}
 }
